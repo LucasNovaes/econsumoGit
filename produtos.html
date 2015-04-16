@@ -1,0 +1,88 @@
+
+<html lang='pt-br'>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>Econsumo</title>
+</head>
+<body>
+
+   <div id='cssmenu'>
+      <ul>
+         <a href="index.html"><img src="logo.png" width="9%" align="center"></a>
+         <li><a href='index.html'>Home</a></li>
+         <li class='active'><a href='produtos.html'>Produtos</a></li>
+         <li><a href='empresa.html'>A Empresa</a></li>
+         <li><a href='contato.html'>Contatos</a></li>
+
+      </ul>
+   </div>
+
+   <div id="cssmenu">
+      <br> Produtos cadastrados na nossa base de dados <br><br>
+
+      <form id="pesquisaProduto" name="pesquisaProduto" method="get" action="">
+
+         Pesquisar: <input id="produtoNome" type="text" placeholder="Nome do produto" > 
+         <input id"buscaProduto" type="submit" value="Buscar" >
+          <br><br> Resultados da busca:  <br><br>
+         <table border="1">
+            <tbody>
+                 <tr>
+                     <td style="font-weight: bold;">Produto</td>
+                     <td style="font-weight: bold;">Descrição</td>
+                  </tr>
+
+                  <tr>    
+                     <td style="width: 200px; align: center;">
+                        <img src="ferro a vapor.jpg" style="width: 30%;">
+                        <br> Ferro a vapor - CCE  
+                     </td>
+                     <td>
+                        Voltagem: 110V <br>
+                        Potência: <br>
+                        12 kW/h (em uso) <br>
+                        2 kW/h (em standby)
+                     </td> 
+                  </tr>
+               
+                  <tr>
+                        <td style="width: 200px; align: center;">
+                        
+                           <img src="chuveiroLorenzetti.png" width="30%">
+                           <br> Chuveiro Elétrico - Lorenzetti
+                        </td>
+                        <td>
+                         
+                           Voltagem: 110V <br>
+                           Potência: <br>
+                           50 kW/h (em uso) <br>
+                           10 kW/h (em standby)
+                        </td> 
+                  </tr>
+                  <tr>
+                        <td style="width: 200px; align: center;">
+                        
+                           <img src="xbox.jpg" width="30%">
+                           <br> Vídeo Game - Xbox 360
+                        </td>
+                        <td>
+                         
+                           Voltagem: 110V <br>
+                           Potência: <br>
+                           25 kW/h (em uso) <br>
+                           0 kW/h (em standby)
+                        </td> 
+                  </tr>
+            </tbody>
+         </table>
+      </form>
+   </div>
+
+
+</body>
+</html>
